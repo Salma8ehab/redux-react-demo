@@ -3,7 +3,6 @@ import { useEffect } from "react";
 // import { useDispatch, useSelector } from "react-redux";
 import { fetchUser } from "./userSliice";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
-import React from "react";
 function UserList() {
   const data =useAppSelector((state)=> state.user)
   const dispatch = useAppDispatch();
